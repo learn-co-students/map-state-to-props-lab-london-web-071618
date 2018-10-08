@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 
+
 class UserInput extends Component {
 
   state = {
@@ -45,3 +46,4 @@ class UserInput extends Component {
 }
 
 export default connect()(UserInput);
+
